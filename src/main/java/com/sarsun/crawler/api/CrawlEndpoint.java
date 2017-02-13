@@ -8,9 +8,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-/**
- * Created by Venkat103085 on 12/02/2017.
- */
+
 @RestController
 public class CrawlEndpoint {
     private static final Logger LOG = LoggerFactory.getLogger(CrawlEndpoint.class);
